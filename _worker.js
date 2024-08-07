@@ -5789,7 +5789,7 @@ var src_default = {
         const url = new URL(request.url);
         const host = url.origin;
         const frontendUrl =
-            env.FRONTEND || `https://raw.githubusercontent.com/jwyGithub/subconverter-cloudflare/main/index.html?t=${Date.now()}`;
+            env.FRONTEND || `https://raw.githubusercontent.com/notagshen/psub/main/index.html?t=${Date.now()}`;
 
         let backend = env.BACKEND || 'https://url.v1.mk';
 
